@@ -1,0 +1,53 @@
+@import "./utils/fonts";
+
+:root {
+  font-size: 0.625em;
+
+  // Colors
+  --primary: #1f336d;
+  --secondary: #e0bb7f;
+  --light_blue: #59a9bb;
+  --light_green: #60bf86;
+  --light_gray: #f5f5f5;
+  --dark_red: #772b36;
+  --white: #fff;
+  --black: #000;
+
+  //   Fonts
+  --font400: "Proxima Nova Regular";
+  --font600: "Proxima Nova SemiBold";
+  --font700: "Proxima Nova Bold";
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: var(--font400);
+  font-size: 1rem;
+  height: 100%;
+}
+
+.wrapper {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+
+main {
+  flex: 1;
+}
+
+#__next {
+  height: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
