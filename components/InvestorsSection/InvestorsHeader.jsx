@@ -1,14 +1,19 @@
 import Container from "../../layout/Container";
+import Divider from "../Divider";
 import { Col, Row } from "antd";
 
 import Link from "next/link";
 import styles from "../../styles/components/InvestorsSection/InvestorsHeader.module.scss";
+import { StyleRegistry } from "styled-jsx";
 
 export default function InvestorsHeader() {
   return (
     <header className={styles.header}>
       <Container>
-        <h2 className={styles.header__title}>Инвесторам</h2>
+        <Row className={styles.header__top} wrap={false} align={"middle"}>
+          <h2 className={styles.header__title}>Инвесторам</h2>
+          <Divider />
+        </Row>
         <Row align={"top"} justify={"space-between"}>
           <Col span={10}>
             <p className={styles.header__desc}>

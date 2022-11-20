@@ -3,9 +3,12 @@
 .header {
   @include section_mb;
 
+  &__top {
+    margin-bottom: 2rem;
+  }
+
   &__title {
     @include section_title;
-    margin-bottom: 2rem;
     margin-top: 0;
     margin-right: 0 !important;
   }
