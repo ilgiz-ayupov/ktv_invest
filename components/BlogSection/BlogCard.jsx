@@ -6,9 +6,10 @@ import styles from "../../styles/components/BlogSection/BlogCard.module.scss";
 export default function BlogCard({ title }) {
   return (
     <div className={styles.card}>
-      <Link href="/">
+      <Link className={styles.card__link} href="/">
         <div className={styles.card__top}>
           <Image
+            className={styles.card__image}
             src="/images/blog_section/img1.jpg"
             alt="blog image"
             width={290}
