@@ -1,0 +1,6 @@
+@import "../../utils/mixins";
+
+.video {
+    @include section_paddings;
+    padding-top: 0;
+}

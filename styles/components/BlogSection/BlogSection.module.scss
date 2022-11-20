@@ -1,0 +1,6 @@
+@import "../../utils/mixins";
+
+.blog {
+    @include section_paddings;
+    padding-top: 0;
+}

@@ -1,0 +1,33 @@
+@import "../../utils/mixins";
+
+.header {
+  display: flex;
+
+  &__top {
+    margin-bottom: 4rem;
+  }
+
+  &__title {
+    @include section_title;
+    margin-top: 0;
+  }
+
+  &__more {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 4rem;
+    height: 4rem;
+    border: 2px solid var(--secondary);
+    border-radius: 50%;
+
+    & svg {
+      transform: rotate(-90deg);
+    }
+
+    & path {
+      stroke: var(--secondary);
+    }
+  }
+}
