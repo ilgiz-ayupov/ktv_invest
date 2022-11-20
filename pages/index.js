@@ -7,6 +7,8 @@ import InvestorsSection from "../components/InvestorsSection";
 import OffersSection from "../components/OffersSection/";
 import ConsultationForm from "../components/ConsultationForm";
 import RealEstateSection from "../components/RealEstateSection";
+import SeaViewSection from "../components/SeaViewSection";
+import DiscountSection from "../components/DiscountSection";
 
 export default function Home() {
   return (
@@ -23,6 +25,8 @@ export default function Home() {
         <OffersSection />
         <ConsultationForm />
         <RealEstateSection />
+        <SeaViewSection />
+        <DiscountSection />
       </main>
       <Footer />
     </div>

@@ -1,0 +1,6 @@
+@import "../../utils/mixins";
+
+.sea_view {
+    @include section_paddings;
+    padding-top: 0;
+}
