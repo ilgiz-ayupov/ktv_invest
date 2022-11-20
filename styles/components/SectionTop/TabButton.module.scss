@@ -1,0 +1,18 @@
+.tab_btn {
+  font-family: var(--font600);
+  font-size: 1.6rem;
+  line-height: 1;
+  text-align: center;
+  display: inline-block;
+  padding: 1.2rem 2rem;
+
+  background: linear-gradient(
+      0deg,
+      rgba(31, 51, 109, 0.05),
+      rgba(31, 51, 109, 0.05)
+    ),
+    #ffffff;
+  border-radius: 6.3rem;
+  border: none;
+  transition: all 0.3s;
+}

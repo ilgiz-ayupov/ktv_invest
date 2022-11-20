@@ -138,3 +138,44 @@ ul[id^="rc-menu-uuid"][id$="-popup"] {
     }
   }
 }
+
+// Section Top Tabs
+.ant-tabs-nav {
+  margin-bottom: 1rem;
+}
+
+#section-top__tabs {
+  & *::before {
+    content: none;
+  }
+
+  & > .ant-tabs-tab {
+    padding: 0 !important;
+  }
+
+  & .ant-tabs-ink-bar {
+    display: none;
+  }
+
+  & .ant-tabs-tab-active button {
+    background-color: var(--primary);
+    color: var(--white);
+  }
+
+  & .ant-select-arrow {
+    color: var(--primary);
+  }
+}
+
+// Section Top Search Button
+#searchBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--secondary) !important;
+  border: none;
+  border-radius: 50%;
+  width: 4rem;
+  height: 4rem;
+  margin-top: 2rem;
+}

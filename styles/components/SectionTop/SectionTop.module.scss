@@ -1,0 +1,28 @@
+.section {
+  position: relative;
+
+  &__bg {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  &__content {
+    width: 1296px;
+    padding: 0 1.5rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 10;
+    transform: translate(-50%, -50%);
+  }
+
+  &__title {
+    font-family: var(--font700);
+    color: var(--white);
+    font-size: 5.6rem;
+    line-height: 1;
+    margin-top: 0;
+    margin-bottom: 4rem;
+  }
+}

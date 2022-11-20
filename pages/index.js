@@ -1,8 +1,8 @@
 import Head from "next/head";
 
 import Header from "../layout/Header";
-import Main from "../layout/Main";
 import Footer from "../layout/Footer";
+import SectionTop from "../components/SectionTop";
 
 export default function Home() {
   return (
@@ -13,7 +13,9 @@ export default function Home() {
         {/* <link rel="icon" href="/favicon.ico" /> */}
       </Head>
       <Header />
-      <Main />
+      <main>
+        <SectionTop />
+      </main>
       <Footer />
     </div>
   );

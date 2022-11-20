@@ -1,0 +1,15 @@
+#section-top__tabs {
+
+    & *::before {
+        content: none;
+    }
+
+    & .ant-tabs-ink-bar {
+        display: none;
+    }
+
+    & .ant-tabs-tab-active button {
+        background-color: var(--primary);
+        color: var(--white);
+    }
+}

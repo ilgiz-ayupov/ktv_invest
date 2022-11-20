@@ -1,0 +1,18 @@
+.form {
+  padding: 2rem;
+  background-color: var(--primary);
+  border-radius: 0.8rem;
+
+  &__label {
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1.4rem;
+    color: var(--white);
+    margin-bottom: 0.6rem;
+  }
+
+  &__select {
+    display: inline-block;
+    width: 100%;
+  }
+}
