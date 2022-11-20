@@ -1,0 +1,31 @@
+.dropdown {
+  cursor: pointer;
+  color: var(--white);
+  font-family: var(--font400);
+  font-size: 1.4rem;
+  line-height: 1;
+  transition: color 0.3s;
+
+  & path {
+    transition: stroke 0.3s;
+  }
+
+  &:hover {
+    color: var(--secondary);
+
+    path {
+      stroke: var(--secondary);
+    }
+  }
+
+  & > div {
+    display: flex;
+    align-items: center;
+  }
+
+  &__link {
+    font-family: var(--font400);
+    font-size: 1.4rem;
+    line-height: 1;
+  }
+}

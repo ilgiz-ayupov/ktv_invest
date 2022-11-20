@@ -1,0 +1,22 @@
+.auth {
+  border-bottom: 1px solid var(--white);
+
+  &__link {
+    color: var(--white);
+    font-family: var(--font600);
+    font-size: 1.4rem;
+    line-height: 1;
+
+    &:hover {
+      color: var(--secondary);
+    }
+  }
+
+  &__devider {
+    color: var(--white);
+    font-family: var(--font600);
+    font-size: 1.4rem;
+    line-height: 1;
+    padding: 0 0.5rem;
+  }
+}
