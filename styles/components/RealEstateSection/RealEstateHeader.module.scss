@@ -1,0 +1,69 @@
+@import "../../utils/mixins";
+
+.header {
+  padding-bottom: 33rem;
+
+  &__top {
+    margin-bottom: 4rem;
+  }
+
+  &__title {
+    @include section_title;
+    margin-top: 0;
+  }
+
+  &__more {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 4rem;
+    height: 4rem;
+    border: 2px solid var(--secondary);
+    border-radius: 50%;
+
+    & svg {
+      transform: rotate(-90deg);
+    }
+
+    & path {
+      stroke: var(--secondary);
+    }
+  }
+
+  &__desc {
+    @include section_desc;
+  }
+}
+
+.categories {
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  &__row {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 -0.8rem;
+  }
+
+  &__card {
+    padding: 0.8rem;
+  }
+
+  &__link {
+    position: relative;
+    color: var(--white);
+    transition: all 0.3s;
+
+    &:hover {
+      transform: translateY(-1rem);
+    }
+  }
+
+  &__title {
+    position: absolute;
+    bottom: 2rem;
+    left: 2rem;
+  }
+}
