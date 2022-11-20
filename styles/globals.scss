@@ -76,22 +76,12 @@ header .ant-menu {
 
   &-submenu,
   &-item {
-    display: flex !important;
-    align-items: center;
+    top: 0 !important;
     font-family: var(--font400) !important;
-    font-size: 1.4rem;
+    font-size: 1.4rem !important;
     line-height: 1;
-    text-align: center;
     color: var(--primary) !important;
     padding-inline: 0 !important;
-
-    & .ant-space {
-      &-item {
-        display: flex;
-        align-items: center;
-        transition: all 0.3s;
-      }
-    }
 
     &:not(:last-child) {
       margin-right: 3rem;
@@ -99,6 +89,14 @@ header .ant-menu {
 
     &::after {
       content: none !important;
+    }
+
+    & .ant-space {
+      &-item {
+        display: flex;
+        align-items: center;
+        transition: all 0.3s;
+      }
     }
 
     & path {
