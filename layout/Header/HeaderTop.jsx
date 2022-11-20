@@ -1,13 +1,13 @@
 import { Row, Col } from "antd";
 
-import Container from "../../Container";
-import MainSocials from "../../../components/MainSocials";
-import Contacts from "../../../components/Contacts";
-import DropdownLanguage from "../../../components/DropdownLanguage";
-import Currencies from "../../../components/Currencies";
-import Auth from "../../../components/Auth";
+import Container from "../Container";
+import MainSocials from "../../components/MainSocials";
+import Contacts from "../../components/Contacts";
+import DropdownLanguage from "../../components/DropdownLanguage";
+import Currencies from "../../components/Currencies";
+import Auth from "../../components/Auth";
 
-import styles from "../../../styles/layout/Header/HeaderTop.module.scss";
+import styles from "../../styles/layout/Header/HeaderTop.module.scss";
 
 export default function HeaderTop() {
   return (
