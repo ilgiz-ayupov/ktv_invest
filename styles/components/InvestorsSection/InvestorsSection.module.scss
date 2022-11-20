@@ -1,0 +1,6 @@
+@import "../../utils/mixins";
+
+.investors {
+  background-color: var(--light_gray);
+  @include section_paddings;
+}

@@ -1,0 +1,45 @@
+@import "../../utils/mixins";
+
+.header {
+  @include section_mb;
+
+  &__title {
+    @include section_title;
+    margin-bottom: 2rem;
+    margin-top: 0;
+    margin-right: 0 !important;
+  }
+
+  &__desc {
+    @include section_desc;
+  }
+}
+
+.article {
+  &__link {
+    color: var(--primary);
+    background: var(--whtie);
+    box-shadow: 0px 4px 16px rgba(31, 51, 109, 0.2);
+    border-radius: 0.8rem;
+    padding: 2rem;
+    transition: all 0.3s;
+
+    &:hover {
+      background-color: var(--primary);
+      color: var(--white);
+      transform: translateY(-1rem);
+    }
+  }
+
+  &__top {
+    text-align: right;
+  }
+
+  &__title {
+    margin-top: 2.5rem;
+    margin-bottom: 0;
+    font-family: var(--font600);
+    font-size: 3rem;
+    line-height: 1.2;
+  }
+}
