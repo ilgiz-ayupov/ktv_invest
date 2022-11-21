@@ -9,6 +9,7 @@ import ConsultationForm from "../components/ConsultationForm";
 import RealEstateSection from "../components/RealEstateSection";
 import SeaViewSection from "../components/SeaViewSection";
 import DiscountSection from "../components/DiscountSection";
+import FreeConsultationForm from "../components/FreeConsultationForm";
 import BlogSection from "../components/BlogSection";
 import VideoSection from "../components/VideoSection";
 
@@ -29,6 +30,7 @@ export default function Home() {
         <RealEstateSection />
         <SeaViewSection />
         <DiscountSection />
+        <FreeConsultationForm />
         <BlogSection />
         <VideoSection />
       </main>
